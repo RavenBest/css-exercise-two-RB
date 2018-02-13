@@ -1,0 +1,78 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  img: url(../images/instagram-pic.jpg);
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+  line-height: 200%
+}
+
+figcaption {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
